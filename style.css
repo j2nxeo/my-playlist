@@ -1,0 +1,78 @@
+
+body {
+    background-color: #fcfcfc;
+    color: #333;
+    font-family: 'Malgun Gothic', sans-serif;
+    padding: 30px;
+    line-height: 1.5;
+}
+
+h1 {
+    color: #8A2BE2; 
+    text-align: center;
+    border-bottom: 2px solid #FF4500; 
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #444;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+
+.lyrics-box {
+    background-color: #ffffff;
+    border: 1px solid #8A2BE2;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.highlight {
+    color: #FF4500; 
+    font-weight: bold;
+}
+
+#charm-list {
+    list-style-type: "- "; 
+    padding-left: 25px;
+}
+
+#charm-list li {
+    margin-bottom: 8px;
+}
+
+#track-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+#track-table th {
+    background-color: #8A2BE2;
+    color: white;
+    padding: 10px;
+    border: 1px solid #6a1bb1;
+}
+
+#track-table td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.listen-btn {
+    background-color: #FF4500;
+    color: #ffffff;
+   
+    padding: 12px 24px;
+     cursor: pointer;
+    display: block;
+    margin: 30px auto;
+    font-weight: bold;
+}
+
+
+.listen-btn:hover {
+    background-color: #e63e00;
+}
